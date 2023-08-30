@@ -1,4 +1,4 @@
-# xPhera
+# xPhera-core
 
 ## Project setup
 ```
