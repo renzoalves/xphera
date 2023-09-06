@@ -11,15 +11,22 @@
                     alt="Logo TFCA"
                 />
             </div>
+
+            <div class="col text-center" style="background-color: #2e354c">
+                <dash-menu-buttons
+                    v-on:emit-select-panel="SelectPanel"
+                    v-on:emit-select-title="SelectTitle"
+                />
+            </div>
         </div>
 
         <!-- MENU -->
-        <div class="row">
+        <!-- <div class="row">
             <dash-menu-buttons
                 v-on:emit-select-panel="SelectPanel"
                 v-on:emit-select-title="SelectTitle"
             />
-        </div>
+        </div> -->
 
         <!-- PAINÉIS SELECIONADOS -->
         <div class="row mt-1" v-if="panelSelected == 'home'">
@@ -170,5 +177,6 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+    background-color: #708090;
 }
 </style>

@@ -7,30 +7,30 @@ const dashFrontDataCards = {
                     body: "usado quando se realiza alguma modificação em arquivos de build e dependências.<br>Exemplo: adição de dependências do Apache Kafka.",
                     dtalt: "25/08/2023 - 09:06h"
                 },
-                {
-                    id: 6,
-                    title: "ENV",
-                    body: "utilizado quando se modifica ou adiciona algum arquivo de CI/CD. <br>Exemplo: modificar um comando do Dockerfile ou adicionar um step a um Jenkinsfile.",
-                    dtalt: "25/08/2023 - 09:06h"
-                },
+                // {
+                //     id: 6,
+                //     title: "ENV",
+                //     body: "utilizado quando se modifica ou adiciona algum arquivo de CI/CD. <br>Exemplo: modificar um comando do Dockerfile ou adicionar um step a um Jenkinsfile.",
+                //     dtalt: "25/08/2023 - 09:06h"
+                // },
                 {
                     id: 5,
                     title: "DOC",
                     body: "ideal para quando se adiciona ou modifica alguma documentação no código ou do repositório em questão.<br>Exemplo: adição de documentação sobre o response de uma API ou adição de um README.md.",
                     dtalt: "25/08/2023 - 09:06h"
                 },
-                {
-                    id: 4,
-                    title: "TEST",
-                    body: "usado quando se realizam alterações de qualquer tipo nos testes, seja a adição de novos testes ou a refatoração de testes já existentes.<br>Exemplo: adição de testes de contrato e modificação de testes unitários.",
-                    dtalt: "25/08/2023 - 09:06h"
-                },
-                {
-                    id: 3,
-                    title: "STYLE",
-                    body: "utilizado quando são realizadas mudanças no estilo e formatação do código que não irão impactar em nenhuma lógica do código.<br>Exemplo: realizar a indentação de um código.",
-                    dtalt: "25/08/2023 - 09:06h"
-                },
+                // {
+                //     id: 4,
+                //     title: "TEST",
+                //     body: "usado quando se realizam alterações de qualquer tipo nos testes, seja a adição de novos testes ou a refatoração de testes já existentes.<br>Exemplo: adição de testes de contrato e modificação de testes unitários.",
+                //     dtalt: "25/08/2023 - 09:06h"
+                // },
+                // {
+                //     id: 3,
+                //     title: "STYLE",
+                //     body: "utilizado quando são realizadas mudanças no estilo e formatação do código que não irão impactar em nenhuma lógica do código.<br>Exemplo: realizar a indentação de um código.",
+                //     dtalt: "25/08/2023 - 09:06h"
+                // },
                 {
                     id: 2,
                     title: "REFACTOR",

@@ -30,11 +30,11 @@
                 <h5 class="text-left font-italic ml-2"      v-if="(line.type == 't5-i')">{{ line.text }}</h5>
 
                 <!-- PARÁGRAFOS -->
-                <p  class="text-left ml-2 mr-2"             v-if="(line.type == 'p')">{{ line.text }}</p>
-                <p  class="text-left font-italic ml-2 mr-2" v-if="(line.type == 'pi')">{{ line.text }}</p>
+                <p  class="text-justify ml-2 mr-2"             v-if="(line.type == 'p')">{{ line.text }}</p>
+                <p  class="text-justify font-italic ml-2 mr-2" v-if="(line.type == 'pi')">{{ line.text }}</p>
 
                 <!-- PARÁGRAFOS COM FORMATAÇÃO HTML-->
-                <p  class="text-left ml-2 mr-2"             v-if="(line.type == 'pf')"> <span v-html="line.text"></span> </p>
+                <p  class="text-justify ml-2 mr-2"             v-if="(line.type == 'pf')"> <span v-html="line.text"></span> </p>
 
                 <!-- IMAGEM -->
                 <img  class="text-left ml-2 mr-2"           v-if="(line.type == 'img')" :src="line.text">
@@ -65,6 +65,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+div {
+    background-color: #ccc;
+}
 .img-texto-lateral {
     display: flex;
     align-items: center;

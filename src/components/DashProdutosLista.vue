@@ -1,3 +1,4 @@
+<!-- LISTA DE POSTs DA PÁGINA 'HOME' -->
 <template>
     <div class="col-12 border rounded mt-1 ml-2" style="padding-left: 0">
         <div class="img-texto-lateral">
@@ -6,7 +7,7 @@
                     class="rounded-left align-top"
                     :src="dashItem.img"
                     :alt="dashItem.alt"
-                    style="height: 100px;"
+                    style="height: 100px"
                 />
             </div>
             <div class="mb-2">
@@ -14,12 +15,23 @@
                     <strong>{{ dashItem.title }}</strong>
                 </h6>
                 <p class="ml-2 text-left">{{ dashItem.text }}</p>
-                <button
-                    class="btn btn-outline-dark btn-sm mb-2"
+                <!-- <button
+                    class="btn btn-outline-dark btn-sm mb-2 text-right"
                     @click.stop.prevent="$emit('emit-select-post', dashItem.id)"
                 >
-                    Ler
-                </button>
+                    Acessar Post
+                </button> -->
+                <p class="ml-2 text-left">
+                    <a
+                        href="#"
+                        class="badge badge-info text-left"
+                        @click.stop.prevent="
+                            $emit('emit-select-post', dashItem.id)
+                        "
+                    >
+                        Acessar
+                    </a>
+                </p>
             </div>
         </div>
     </div>
@@ -42,6 +54,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+div {
+    background-color: #ccc;
+}
 .img-texto-lateral {
     display: flex;
     align-items: center;

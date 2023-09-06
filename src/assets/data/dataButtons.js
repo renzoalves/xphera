@@ -33,6 +33,11 @@ const dashMenuButtons = {
                     label: 'Idéias Relevantes',
                     title: 'Idéias Relevantes',
                     slug: 'ideias-relevantes'
+                }, {
+                    id: 6,
+                    label: 'ICZS',
+                    title: 'ICZS',
+                    slug: 'iczs'
                 }
             ]
         }

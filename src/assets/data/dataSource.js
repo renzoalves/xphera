@@ -1,7 +1,147 @@
 const dashFrontData = {
     data() {
         return {
-            dashList: [{
+            dashList: [
+                {
+                    id: 12,
+                    img: require("@/assets/imgs/dash-produtos-lista/pr-samuel.png"),
+                    alt: "ICZS",
+                    slug: "iczs",
+                    title: "ICZS",
+
+                    text: "Dia 2381 - Buscando e Vivendo o Avivamento: Vai Tudo Bem!",
+
+                    date: "2023-09-06",
+                    time: "11:52h",
+                    article: [{
+                            id: 0,
+                            type: "t3",
+                            text: "Dia 2381 - Sabor com Propósito, pela Fé!"
+                        },
+                        {
+                            id: 1,
+                            type: "pi",
+                            text: "“Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito.” - Romanos 8:28"
+                        },
+                        {
+                            id: 2,
+                            type: "pf",
+                            text: "Em tudo o que acontece em nossas vidas, e tudo o que acontece em torno de nossas vidas, o propósito está presente de forma exuberante e intensa. Em tudo mesmo!<br>Viver o propósito é uma das mais felizes e edificantes forma de experimentar cada dia.<br>Hoje mesmo, estou cumprindo mais um propósito, intimamente ligado ao meu passado, e completamente envolvido com o meu futuro."
+                        },
+                        {
+                            id: 3,
+                            type: "pf",
+                            text: "Estou de saída para buscar vinte novas sacas de café, já dessa nova safra de 2023, às quais serão a base do nosso delicioso Café Solar no período 2023/2024. E nesta compra, o Espírito Santo nos permitiu comprar uma das variedades mais saborosas que o café produz em nossas terras brasileiras. Pela primeira vez teremos o já conhecido Café Solar Especial e, além dele, o Café Solar Especial, lote Bourbon. Um grande avanço em nossa produção de cafés especiais.<br>Mas o melhor, é que o Café Solar está ligado a um propósito: Transformar Vidas. Hoje, o Café Solar auxilia em cerca de 25% das despesas mensais da Casa Solar, casa essa que já ressocializou mais de 300 moradores de rua em nove anos. E continua nesse processo transformador e abençoador de vidas a todo vapor.<br>Este será o novo slogan do Café Solar, e você está sabendo em primeiríssima mão:  Sabor com Propósito. Um propósito único nos cafés do Brasil e, quem sabe, do mundo. Em cada gole de uma deliciosa xícara de café, o sabor de saber que se é parceiro de uma obra tão eficaz, verificável e com nomes próprios os mais diversos. É mais que tomar café, é transformar vidas.<br>Mas ainda falta o pela fé, do título acima… "
+                        },
+                        {
+                            id: 4,
+                            type: "pf",
+                            text: "Pela primeira vez também compramos vinte sacas de café. Dobramos nossos sonhos, pela fé. Ainda não levantamos todo o recurso necessário para pagar as vinte sacas. Mas o Senhor que criou este café maravilhoso, manteve sua produção e venda até aqui, ele não permitirá que o propósito se interrompa. Ele providenciará o necessário para o propósito que ele mesmo determinou. Deus nunca falha e nunca falta!<br>Essa é a diferença de se caminhar com propósito: quando você sabe que Deus está presente, ele não deixará de sustentar o que ele começou, e o que ele prometeu.<br>Descubra sempre o propósito na sua vida, e nos acontecimentos de cada instante, e você também descobrirá o compromisso de Deus com a obra que ele está desenvolvendo em sua vida. "
+                        },
+                        {
+                            id: 5,
+                            type: "pi",
+                            text: "“Estou convencido de que aquele que começou boa obra em vocês, vai completá-la até o dia de Cristo Jesus” (Filipenses 1:6)."
+                        },
+                        {
+                            id: 6,
+                            type: "pi",
+                            text: "Pr Samuel F Silva."
+                        },
+                    ]
+                },
+                {
+                    id: 11,
+                    img: require("@/assets/imgs/dash-produtos-lista/pr-samuel.png"),
+                    alt: "ICZS",
+                    slug: "iczs",
+                    title: "ICZS",
+
+                    text: "Dia 2386 - Buscando e Vivendo o Avivamento: Qual é o seu Ouro e a sua Prata?",
+
+                    date: "2023-09-06",
+                    time: "13:32h",
+                    article: [{
+                            id: 0,
+                            type: "t3",
+                            text: "Dia 2386 - Qual é o seu Ouro e a sua Prata?"
+                        },
+                        {
+                            id: 1,
+                            type: "p",
+                            text: "Leia e medite em Lucas 14.25-35 e Provérbios 2.1-22"
+                        },
+                        {
+                            id: 2,
+                            type: "pi",
+                            text: "“Meu filho, se você procurar a sabedoria como se procura a prata e buscá-la como quem busca um tesouro escondido...” - Provérbios 2:4"
+                        },
+                        {
+                            id: 3,
+                            type: "p",
+                            text: "Uma das pessoas que mais admiro na Bíblia, e que quero conhecer quando eu chegar no céu, é a sunamita, amiga do profeta Eliseu. O pequeno fragmento que conhecemos da história desta mulher anônima, nos revela verdades preciosas que a tornam um exemplo poderoso de amor e temor a Deus. Quando ela responde ao servo do profeta, _*”está tudo bem”*_, como lemos no verso acima, na realidade, estava tudo ruim, mas muito ruim mesmo. Seu único filho acabara de falecer, seu coração estava angustiado e ferido, mas ela era forte o bastante para não perder sua confiança em Deus, e mais forte ainda para transmitir paz, em meio ao caos."
+                        },
+                        {
+                            id: 4,
+                            type: "p",
+                            text: "Quando somos envolvidos por uma crise, somos tentados a colocar nossas necessidades em primeiro lugar. Aquele problema, aquela situação, passam a ocupar toda a nossa mente, todos os nossos esforços, toda a nossa atenção. Dormimos e acordamos pensando naquela necessidade. "
+                        },
+                        {
+                            id: 5,
+                            type: "p",
+                            text: "No entanto, não interessa qual seja a sua ou a minha crise, Deus, sempre, deve vir em primeiro lugar. Jesus, sempre, deve ser o primeiro a ocupar os nossos primeiros pensamentos do dia. O Espírito, sempre, deve ser o primeiro em nossos pedidos de oração. "
+                        },
+                        {
+                            id: 6,
+                            type: "pf",
+                            text: "Podemos pedir pela cura, pelo pagamento das dívidas, pela restauração do casamento, pela proteção dos filhos ou por qualquer coisa que seja, mas todas estas coisas virão em segundo plano, quando comparadas com a primazia da presença de Deus, com a intimidade com o Rei Jesus, com a busca de um avivamento do Espírito!<br/>Sigamos nós, a cada dia de nossas vidas, o conselho sábio do autor bíblico: vamos procurar o Espírito, como quem procura um tesouro, prata ou ouro."
+                        },
+                        {
+                            id: 7,
+                            type: "pi",
+                            text: "Pr Samuel F Silva."
+                        },
+                    ]
+                },
+                {
+                    id: 10,
+                    img: require("@/assets/imgs/dash-produtos-lista/pr-samuel.png"),
+                    alt: "ICZS",
+                    slug: "iczs",
+                    title: "ICZS",
+
+                    text: "Dia 2387 - Buscando e Vivendo o Avivamento: Vai Tudo Bem!",
+
+                    date: "2023-09-06",
+                    time: "11:52h",
+                    article: [{
+                            id: 0,
+                            type: "t3",
+                            text: "Dia 2387 - Vai Tudo Bem!"
+                        },
+                        {
+                            id: 1,
+                            type: "pf",
+                            text: "<i>“Está tudo bem com você? Tudo bem com seu marido? E com seu filho? Ela respondeu a Geazi: Está tudo bem.”</i><br/>2 Reis 4:26 (Leia também: 2 Reis 4:8-37)"
+                        },
+                        {
+                            id: 2,
+                            type: "pf",
+                            text: "Uma das pessoas que mais admiro na Bíblia, e que quero conhecer quando eu chegar no céu, é a sunamita, amiga do profeta Eliseu. O pequeno fragmento que conhecemos da história desta mulher anônima, nos revela verdades preciosas que a tornam um exemplo poderoso de amor e temor a Deus. Quando ela responde ao servo do profeta, _*”está tudo bem”*_, como lemos no verso acima, na realidade, estava tudo ruim, mas muito ruim mesmo. Seu único filho acabara de falecer, seu coração estava angustiado e ferido, mas ela era forte o bastante para não perder sua confiança em Deus, e mais forte ainda para transmitir paz, em meio ao caos."
+                        },
+                        {
+                            id: 3,
+                            type: "pf",
+                            text: "A maioria de nós não é assim. Parecemos mais com aquela outra mulher da Bíblia, a de Jó: perdemos facilmente a confiança e segurança no Senhor e, rapidamente, mudamos nosso semblante em tristeza, revolta, desânimo, murmuração, traduzindo nosso coração para todos, naquele instante. Falta-nos a coragem e força, dessa sunamita, heroína da fé, que é capaz de dizer ao seu marido: *”Não se preocupe”*_, quando, em meio ao sofrimento da morte, ela se preparava para ir atrás do profeta (_“Ela chamou o marido e disse: “Preciso de um servo e de uma jumenta para ir falar com o homem de Deus. Vou e volto logo”. Ele perguntou: “Mas por que hoje? Não é lua nova nem sábado!” Ela respondeu: “Não se preocupe” Reis 4:22-23). Estamos vivendo tempos difíceis e complicados. Alguns estão passando pela dificuldade financeira, outros pela falência; alguns pela enfermidade, outros pela morte de seus queridos; alguns pelos atrasos dos pagamentos no trabalho, outros pela demissão mesmo; alguns carregam o sofrimento continuo causado por algum parente próximo, outros pelos sofrimentos causados pelos próprios filhos; alguns estão passando pela insegurança, tristeza e medo, outros pela própria depressão ou pânico. Enfim, todos, de alguma forma, estamos sofrendo consequências de um momento difícil em nosso tempo. E isto, além dos nossos problemas comuns, que não param de acontecer. Em meio a tudo isso, ou ficamos com medo, revoltados, murmuramos, como a mulher de Jó; ou confiamos em Deus, entregamos tudo em suas mãos, e envidamos todos os esforços para buscá-lo mais do nunca, como fez a sunamita. Ou perdemos a fé, ou a fortalecemos cada vez mais. <br/>Se você agir como a sunamita, sua fé será turbinada pela presença e pelo poder de Deus, e você irá dizer como ela: vai tudo bem."
+                        },
+                        {
+                            id: 4,
+                            type: "pi",
+                            text: "Pr Samuel F Silva."
+                        },
+                    ]
+                },
+                {
                     id: 9,
                     img: require("@/assets/imgs/dash-produtos-lista/corregedoria.png"),
                     alt: "Corregedoria",
@@ -11,6 +151,7 @@ const dashFrontData = {
                     text: "Análise de LOGs - San3.0 (HTTP-500)",
 
                     date: "2023-08-30",
+                    time: "10:22h",
                     article: [{
                             id: 0,
                             type: "t3",
@@ -26,6 +167,17 @@ const dashFrontData = {
                             type: "pf",
                             text: "<ul><li>Parcerio 0260-06179532000114 (AVISTARE), cliente: 55313035000172, 55313035000253;</li><li>Parcerio 0079-14084522000123 (VETOR SOLUÇÕES), cliente: 17703809000182;</li><li>Parcerio 0434-34712530000184 (ALMATI), cliente: 34712530000184;</li><li>Parcerio 0266-24895561000164 (BEM INFORMÁICA), cliente: 91845735000414;</li></ul>"
                         },
+                        {
+                            id: 3,
+                            type: "t3",
+                            text: "Plano de Ação"
+                        },
+                        {
+                            id: 4,
+                            type: "pf",
+                            text: "<span class='badge badge-pill badge-primary'>Renzo</span> Disponibilizar gravação de json de envio na API San3.0;<br><span class='badge badge-pill badge-secondary'>Ayran</span> Habilitar gravação de jsons para os clientes selecionados;<br><span class='badge badge-pill badge-secondary'>Ayran</span> Traçar ligação entre os consumos que apresentaram erros com os novos jsons gravados;<br><span class='badge badge-pill badge-secondary'>Ayran</span> Testar jsons gravados em ambiente interno (IMnedes);<br><span class='badge badge-pill badge-primary'>Renzo</span> Analisar jsons que apresentaram erros."
+                        },
+
                     ]
                 },
                 {
@@ -38,6 +190,7 @@ const dashFrontData = {
                     text: "Client Life Cycle - Organizando os fluxos",
 
                     date: "2023-08-14",
+                    time: "0:00h",
                     article: [{
                             id: 0,
                             type: "t3",
@@ -221,6 +374,7 @@ const dashFrontData = {
                     title: "Corregedoria",
                     text: "Client Life Cycle: Acompanhaando ciclo de vida dos clientes",
                     date: "2023-06-16",
+                    time: "0:00h",
                     article: [{
                             id: 0,
                             type: "t3",
@@ -277,6 +431,7 @@ const dashFrontData = {
                     title: "Idéias Relevantes",
                     text: "Plataforma de integração",
                     date: "2023-06-06",
+                    time: "0:00h",
                     article: [{
                             id: 0,
                             type: "t3",
@@ -302,6 +457,7 @@ const dashFrontData = {
                     title: "Corregedoria",
                     text: "CALL Wuysmy - Síntese de dados para o novo modelo de homologaçoes",
                     date: "2023-06-06",
+                    time: "0:00h",
                     article: [{
                             id: 0,
                             type: "t3",
@@ -322,6 +478,7 @@ const dashFrontData = {
                     title: "Homologações",
                     text: "Síntese de dados para o novo modelo de homologaçoes",
                     date: "2023-06-05",
+                    time: "0:00h",
                     article: [{
                             id: 0,
                             type: "t3",
@@ -352,6 +509,7 @@ const dashFrontData = {
                     title: "Agendamento de Homologações",
                     text: "Contato e agendamentos com o Wuysmy",
                     date: "2023-06-05",
+                    time: "0:00h",
                     article: [{
                             id: 1,
                             type: "t3",
@@ -377,6 +535,7 @@ const dashFrontData = {
                     title: "Agendamento de Homologações",
                     text: "Próximas Homologações: Ayran e Wuysmy",
                     date: "2023-05-22",
+                    time: "0:00h",
                     article: [{
                             id: 0,
                             type: "t3",
@@ -397,6 +556,7 @@ const dashFrontData = {
                     title: "API Saneamento 1",
                     text: "Manual técnico com a descrição das informações pertinentes ao processo de integração com nossa API para consulta de dados tributários.",
                     date: "2023-05-17",
+                    time: "0:00h",
                     article: [],
                 },
                 {
@@ -407,6 +567,7 @@ const dashFrontData = {
                     title: "Vacine API",
                     text: "Mapear processos sobre a gravação de pendências.",
                     date: "2023-06-05",
+                    time: "0:00h",
                     article: [{
                             id: 0,
                             type: "t3",

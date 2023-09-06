@@ -2,4 +2,8 @@
     --w-color-azul: #2e354c;
     --w-color-preto: #000;
     --w-color-amarelo: #FEBD11;
+    --w-color-azul-bg: #708090;
+
+    /* Específicos */
+    --w-color-bgcards: #ccc;
 }

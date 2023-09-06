@@ -1,3 +1,4 @@
+<!-- PÁGINA ABERTA APÓS SELEÇÃO DA CATGORIA -->
 <template>
     <div class="card col-sm-12 mt-2" style="padding-left: 0">
         <div class="img-texto-lateral">
@@ -21,7 +22,7 @@
             class="btn btn-outline-dark btn-sm mb-2"
             @click.stop.prevent="$emit('emit-select-post', dashItem.id)"
         >
-            Ler post
+            Acessar
         </button>
     </div>
 </template>
@@ -43,6 +44,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+div {
+    background-color: #ccc;
+}
 .img-texto-lateral {
     display: flex;
     align-items: center;
